@@ -1,0 +1,65 @@
+@import '../css/style.css';
+
+:root {
+    --secondary-color: #6E39C3;
+    --primary-color: #FFFFFF;
+    --accent-color: #A881E7;
+    --hover-color: #CCC;
+    --text-color: #333;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--secondary-color);
+
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+main p {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-countdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 2em;
+}
+
+.circle {
+    width: 7.5em;
+    padding: 5em 3em;
+    background-color: var(--accent-color);
+    border: 1.5em solid var(--secondary-color);
+    border-radius: 50%;
+    margin: 3em 0 2em;
+}
+
+.start-btn {
+    padding: 0.5em 5em;
+}
+
+
+
